@@ -74,19 +74,21 @@ This shows why data modeling is important: raw records are not always the same a
 - Deduplicating customer records
 - Entity resolution
 - Tracking data lineage
-
-## Assumptions and Limitations
-
-This project involves some assumptions because there is no perfect ground truth for customer identity.
-
-For example:
-
-- Guest customers may be real customers, but they do not have registered customer IDs.
-- Two customers with the same name and postcode may or may not be the same person.
-- Some registered customer IDs do not have matching records in the CRM or customer database.
-- Entity resolution improves the result, but it cannot guarantee 100% accuracy.
+  
 
 ## Conclusion
 
 This project shows how raw transactional and customer data can be transformed into a more useful customer data model.  
 By combining, cleaning, and deduplicating records, the business can answer basic questions like customer count more accurately and reuse the model for future customer analysis.
+
+## Project Source
+
+This project is based on Chapter 3, **Data Modeling**, from *The Well-Grounded Data Analyst* by David Asboth.
+
+
+## Author
+
+**Sophie Ranj**
+
+Data Analyst  
+[Portfolio](https://sophie-ranj.github.io/)
